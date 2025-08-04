@@ -189,6 +189,7 @@ html {
   );
   position: relative;
   overflow: hidden;
+  
 }
 
 .home-content {
@@ -208,7 +209,7 @@ html {
   margin-bottom: 20px;
   color: var(--secondary-color);
   line-height: 1.2;
-  margin-top: 100px;
+  
 }
 
 .home-text .typing-container {
@@ -941,6 +942,12 @@ section.visible {
 
   .home-text {
     margin-bottom: 40px;
+  }
+
+  
+
+  .home-image img {
+    display: none;
   }
 
   .about-content {
