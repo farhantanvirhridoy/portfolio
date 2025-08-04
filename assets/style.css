@@ -960,6 +960,10 @@ section.visible {
     padding-right: 0 !important;
     text-align: left !important;
   }
+  .timeline-item:nth-child(even) {
+    left: 0;
+    
+  }
 
   .timeline-item::before {
     left: 20px !important;
@@ -969,6 +973,10 @@ section.visible {
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
+  }
+  .timeline-item:nth-child(even) {
+    left: 0;
+    
   }
 
   .nav-links {
