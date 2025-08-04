@@ -208,6 +208,7 @@ html {
   margin-bottom: 20px;
   color: var(--secondary-color);
   line-height: 1.2;
+  margin-top: 80px;
 }
 
 .home-text .typing-container {
