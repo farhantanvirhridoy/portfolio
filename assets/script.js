@@ -1,10 +1,10 @@
 // Typing Animation
 const roles = [
-  "I am an engineer",
-  "I am a teacher",
-  "I am a developer",
-  "I am a designer",
-  "I am a problem solver",
+  "I am an Engineer",
+  "I am a Teacher",
+  "I am a Developer",
+  "I am a Designer",
+  "I am a Problem Solver",
 ];
 
 let roleIndex = 0;
