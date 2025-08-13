@@ -416,6 +416,22 @@ section.visible {
   color: var(--primary-color);
 }
 
+.btn-cv {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 32px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
 /* Timeline for Experience and Education */
 .timeline {
   position: relative;
@@ -666,6 +682,26 @@ section.visible {
   width: 0;
   transition: width 1.5s ease;
 }
+
+
+.other-skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.other-skill-item {
+  padding: 6px 12px;
+  background-color: rgba(99, 102, 241, 0.1);
+  
+  color: var(--text-color);
+  border-radius: 20px;
+  
+  font-weight: 600;
+}
+
 
 /* Achievements Section */
 .achievements-grid {
